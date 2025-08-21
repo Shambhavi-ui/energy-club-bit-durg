@@ -1,0 +1,271 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+ 
+}
+
+.nav {
+    
+     display: flex;
+    justify-content: space-between;
+     height: 6vw;
+    align-items: center;
+     width: 100%;
+     
+ }
+ .nav-part1 {
+     display: flex;
+     align-items: flex-start;
+     width: 100%;
+     height: 8vw;
+     background-color: rgb(183, 215, 228);
+    border-radius: 0%;
+     gap: 0vw;
+     
+ }
+ #logo {
+     float: left;
+     border: 0;
+     height: 16vh;
+     width: 18vh;
+     box-sizing: border-box;
+     border-radius: 10000%;
+     padding-top: 3px;
+     padding-left: 5px;
+     
+ }
+ .input-group{
+ padding-left: 420px;
+ padding-top: 48px;
+ display: flex;
+ }
+ .form-control {
+    background-color: rgb(245, 241, 246);
+    border-color: rgb(90, 2, 20);
+    width: 250px;
+ }
+ .btn-outline-primary{
+     border-color: rgb(106, 3, 106);
+     background-color: rgb(122, 210, 237);
+     width: 100px;
+ }
+ h1{
+     padding-top: 32px;
+    padding-left: 35px;
+     font-style: italic;
+     
+     font: 15px;
+    
+ }
+ .nav-part2{
+     background-color: rgb(247, 160, 138);
+     height: 55px;
+     width: 100%;
+     padding-top: px;
+     display: flex;
+     align-items: flex-start;
+     gap: 210px;
+     padding-top: 0;
+     padding-left: 5px;
+ }
+ .nav-part2 h3{
+   padding: 10px 20px ;
+   border: 2px solid #0d0b0b;
+   border-radius: 80px;
+   font-weight: 500;
+   color: black;
+   position: relative;
+   font-size: 14px; 
+   transition: all ease 0.4s; 
+   overflow: hidden;
+ }
+ .nav-part2 h3::after{
+   content: "";
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   background-color: black;
+   left: 0;
+   bottom: -100%;
+   border-radius: 50%;
+   transition: all ease 0.4s;
+   min-inline-size: normal;
+ }
+ .nav-part2 h3:hover::after{
+   bottom: 0;
+   border-radius: 0%;
+ }
+ .nav-part2 h3 a {
+   text-decoration: none;
+   color: rgb(210, 10, 10);
+   z-index: 9;
+   position: relative;
+ }
+ .nav-part2 h3:hover a{
+   color:rgb(234, 228, 228);
+ }
+ 
+ .property {
+     width: 1000px;
+     margin: auto;
+   }
+   
+.gallery {
+  display: inline-block;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  width: 90%;
+  
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(232, 229, 229, 0.1);
+  padding-left: 270px;
+}
+.gallery img {
+  width: 750px;
+  height: 440px;
+  
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+.gallery img:hover {
+  transform: scale(1.05);
+}
+tg-masonrygrid figure .tg-btnviewimg {
+  opacity: 0;
+  visibility: hidden;
+}
+a, a:link {
+  color: #036;
+  text-decoration: none;
+}
+.tg-btnviewimg {
+  top: 80%;
+  left: 10%;
+  z-index: 2;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  display: block;
+  background: #fcfafa;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 48px;
+  border-radius: 50%;
+  position: absolute;
+  text-align: center;
+  margin: -25px 0 0 -25px;
+  border: 2px solid #eeb5b5;
+  
+}
+*:after, *:before, p a, a, .tg-themedropdownbox, .tg-navigation ul li a, .sub-menu, .mega-menu, .tg-themetabnav li a, .tg-themeposttags li a, .tg-pricebox a, .tg-featuredimg a img, .tg-btnprev, .tg-btnnext, .tg-gallery li figure img, .tg-btnview, .tg-widgetcontent ul li a, .tg-affiliationscertifications figure, .tg-widgetflickrgallery .tg-widgetcontent ul li figure a img, .tg-poststyleswitcher li a, .tg-infodata strong a, .tg-coursegallery > div .item img, .tg-relateddocuments li, .tg-faculty figure a img, .tg-masonrygrid figure img, .tg-btnviewimg, .tg-postnav li figure img, .tg-tag, .tg-widgetflickrgallery .tg-widgetcontent ul li figure figcaption {
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+a {
+  color: #428bca;
+  text-decoration: none;
+}
+a {
+  background: 0 0;
+}
+a, p a, p a:hover, a:hover, a:focus, a:active, .tg-stars span:after, .tg-noticeboard .tg-textbox span:first-child, .tg-navigation ul li:hover a[data-new]:after, .tg-navigation ul li a:hover[data-new]:after, .tg-themeposttags li a:hover, .tg-navigation .tg-featuredimg a:hover, .tg-navigation .tg-themeposttags li a:hover, .tg-navigation .tg-themeposttitle h3 a:hover, .tg-navigation .tg-matadata li a:hover, .tg-navigation .tg-pricebox a:hover, .tg-pricebox a:hover, .tg-widgetcontent ul li a:hover, .tg-btnsimpleprev:hover, .tg-btnsimplenext:hover, .tg-widgetdownload .tg-widgetcontent ul li a:hover i, .tg-widgetdownload .tg-widgetcontent ul li a:hover span, .tg-widgetdownload .tg-widgetcontent ul li:hover a i, .tg-widgetdownload .tg-widgetcontent ul li:hover a span, .tg-campuses ul li a i, .tg-campuses ul li a span, .tg-infolist li a, .tg-infolist li a i, .tg-infolist li a span, .tg-widgetcoursecategories .tg-widgetcontent ul li:hover:before, .tg-breadcrumb li a, .tg-pricebox a:hover, .tg-infodata strong a:hover, .tg-coursestabs .tg-themetabnav li:hover a, .tg-coursestabs .tg-themetabnav li.active a, .tg-coursecompunent li span i:first-child, .tg-courseoutline li span i:first-child, .tg-scheduleicon, .tg-result:hover .tg-btndownloadresult, .tg-result:hover .tg-btndownloadresult em, .tg-result:hover .tg-btndownloadresult i, .tg-result:hover .tg-description p, .tg-btndownloadresult:hover, .tg-btndownloadresult:hover em, .tg-btndownloadresult:hover i, .tg-departmentscollapse .tg-themecollapsecontent ul li:hover .tg-description p, .tg-departmentscollapse .tg-themecollapsecontent ul li:hover a, .tg-widgetcontent ul li.tg-active a, .tg-facultiescollapse > h3:hover > a, .tg-facultiescollapse > h3.open > a, .tg-faculty:hover h3 a, .tg-departmentname h2, .tg-jobs .tg-themecollapsecontent ul li:hover a, .tg-jobs .tg-themecollapsecontent ul li:hover p, .tg-btncommentreply:hover, .tg-btncommentreply:hover i, .tg-btncommentreply:hover em, .tg-comingcountdown .tg-counterbox span:first-child, .tg-navigation > ul > li.current-menu-item a[data-new]:after {
+  color: #3575d3;
+}
+a {
+  text-decoration: none;
+}
+a {
+  background-color: transparent;
+}
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+a {
+  background-color: transparent;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+:before, :after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:after, *:before, p a, a, .tg-themedropdownbox, .tg-navigation ul li a, .sub-menu, .mega-menu, .tg-themetabnav li a, .tg-themeposttags li a, .tg-pricebox a, .tg-featuredimg a img, .tg-btnprev, .tg-btnnext, .tg-gallery li figure img, .tg-btnview, .tg-widgetcontent ul li a, .tg-affiliationscertifications figure, .tg-widgetflickrgallery .tg-widgetcontent ul li figure a img, .tg-poststyleswitcher li a, .tg-infodata strong a, .tg-coursegallery > div .item img, .tg-relateddocuments li, .tg-faculty figure a img, .tg-masonrygrid figure img, .tg-btnviewimg, .tg-postnav li figure img, .tg-tag, .tg-widgetflickrgallery .tg-widgetcontent ul li figure figcaption {
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+:after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:before, :after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:after, *:before, p a, a, .tg-themedropdownbox, .tg-navigation ul li a, .sub-menu, .mega-menu, .tg-themetabnav li a, .tg-themeposttags li a, .tg-pricebox a, .tg-featuredimg a img, .tg-btnprev, .tg-btnnext, .tg-gallery li figure img, .tg-btnview, .tg-widgetcontent ul li a, .tg-affiliationscertifications figure, .tg-widgetflickrgallery .tg-widgetcontent ul li figure a img, .tg-poststyleswitcher li a, .tg-infodata strong a, .tg-coursegallery > div .item img, .tg-relateddocuments li, .tg-faculty figure a img, .tg-masonrygrid figure img, .tg-btnviewimg, .tg-postnav li figure img, .tg-tag, .tg-widgetflickrgallery .tg-widgetcontent ul li figure figcaption {
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+:after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer div {
+  text-align: center;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
